@@ -1,0 +1,10 @@
+name: helloworld-go
+namespace: ""
+runtime: go
+image: example.com/demos/helloworld-go
+imageDigest: sha256:160155bd464fdae71210b83601236a0d5bb52c582b710a7f4bfff761a0285fe6
+trigger: http
+builder: quay.io/boson/faas-go-builder
+builderMap:
+  default: quay.io/boson/faas-go-builder
+envVars: {}

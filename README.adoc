@@ -1,0 +1,28 @@
+== boson-project Quickstarts
+
+The quickstarts repo for https://github.com/boson-project[boson-project]
+
+IMPORTANT: This is an experiment, subject to change
+
+== Pre-requisites
+
+- Docker for Mac/Windows/Linux
+- Minikube 
+- JDK 11 
+- Knative Client
+
+== Environment
+
+All the examples will be deployed on minikube and will use https://projectcontour.io/[Contour] as an ingress.
+
+Run the following command to setup the minikube with Knative and Ingress
+
+[source,bash]
+----
+$PROJECT_HOME/bin/start-cluster.sh
+----
+
+== Quickstarts
+
+- Go[./helloworld-go]
+- Java[./helloworld-java]
